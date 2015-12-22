@@ -1,0 +1,5 @@
+#org.springsource.ide.eclipse.gradle.core.preferences.GradleProjectPreferences
+#Tue Mar 31 17:12:19 CDT 2015
+build.family.org.gradle.tooling.model.eclipse.HierarchicalEclipseProject=;
+org.springsource.ide.eclipse.gradle.linkedresources=assets/;
+org.springsource.ide.eclipse.gradle.rootprojectloc=..

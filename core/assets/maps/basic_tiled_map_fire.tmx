@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="basic_tiles" tilewidth="32" tileheight="32">
+  <image source="../basic_tiles.png" width="512" height="480"/>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="goal" value=""/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="goal" value=""/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="goal" value=""/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="goal" value=""/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="goal" value=""/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="goal" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="241" name="fire" tilewidth="32" tileheight="32">
+  <image source="fire.png" width="586" height="724"/>
+  <tile id="183">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="184">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="185">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="186">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="187">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="188">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="189">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="190">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="191">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="192">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="193">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="194">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="201">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="202">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="203">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="204">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="205">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="206">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="207">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="208">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="209">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="210">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="211">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="212">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="219">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="220">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="221">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="222">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="223">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="224">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="225">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="226">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="227">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="228">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="229">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="230">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="237">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="238">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="239">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="240">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="241">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="242">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="243">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="244">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="245">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="246">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="247">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="248">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="255">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="256">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="257">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="258">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="259">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="260">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="261">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="262">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="263">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="264">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="265">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="266">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="273">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="274">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="275">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="276">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="277">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="278">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="279">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="280">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="281">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="282">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="283">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+  <tile id="284">
+   <properties>
+    <property name="fire" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt3c1NwzAcQPFUZABuXBmBGRmFTYARgAlogTFIpVaKrCQtJraf43f4HVo+8idPSpMYtX3Xdf3gRsX1I6Vnqcl+13WHwdfge/ATPB5/Pfze/cRzx58PezypqL6zB4k9WOzBYg8We7DYg8UeLPZgsQeLPVjswWIPFnuwzPV43nXdy+B1l27bObZR2zxzPd6Gmd4HHwlny7GN2uYJe5zXWsbrJKnWc3Jso9Q8j5HmesgeW2IPlrV6TK2xxz43t17fgrV6xP4ercMeLPZgsQeLPVjswWIPFnukEXvdYg97aJ49WOzBYg8We7DYY5n321mO+/YzWMu59Nge22EPFnuw2IOlhR7huc/U6++a50j2uNwj5zmSPbbDHiz2YLEHSy09ct9HssflHrWcI7XQoxX2YLEHS64eNd2zaKVHC6/HtfSQPWpkDxZ7sNiDxR4s9mBpucdhdK1Tepa5HuNr4y2/v0Lqv+0uUqs9UlurR+zv0TrswWIPFnuw2IPFHiz2KGt8TWqPdGKvSe1RrscUe7DYg8UeLDX0CM9BtrKtXD3WvE+a8x4z4X62PVhqOF61xB4s9mCZWqf9i9Lzb409WDxesdiDZanH+PP4Ss9JknK/LPUYfx5f6X1AknK/LP0/HO3zASmu2S8peijef3vcnpQ+FrTu3OP+pPQ8rTv3eDgpPU/rPF6xeLxi8XjFkuN899r3KkmJNkM4TziX1x8sv1p1Lrk=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,67 @@
+Player.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+left
+  rotate: false
+  xy: 114, 2
+  size: 48, 68
+  orig: 48, 68
+  offset: 0, 0
+  index: 2
+left
+  rotate: false
+  xy: 2, 74
+  size: 49, 70
+  orig: 49, 70
+  offset: 0, 0
+  index: 3
+left
+  rotate: false
+  xy: 53, 146
+  size: 50, 68
+  orig: 50, 68
+  offset: 0, 0
+  index: 4
+right
+  rotate: false
+  xy: 2, 146
+  size: 49, 70
+  orig: 49, 70
+  offset: 0, 0
+  index: 1
+right
+  rotate: false
+  xy: 105, 144
+  size: 48, 68
+  orig: 48, 68
+  offset: 0, 0
+  index: 2
+right
+  rotate: false
+  xy: 53, 74
+  size: 49, 70
+  orig: 49, 70
+  offset: 0, 0
+  index: 3
+right
+  rotate: false
+  xy: 104, 74
+  size: 50, 68
+  orig: 50, 68
+  offset: 0, 0
+  index: 4
+still
+  rotate: false
+  xy: 2, 2
+  size: 59, 70
+  orig: 59, 70
+  offset: 0, 0
+  index: 1
+left
+  rotate: false
+  xy: 63, 2
+  size: 49, 70
+  orig: 49, 70
+  offset: 0, 0
+  index: 1
